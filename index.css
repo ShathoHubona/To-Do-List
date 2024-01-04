@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(
+        -70deg,
+        #d8b91e,
+        #970606cc
+    );
+    background-size: 400% 400%;
+}
+
+h1 {
+    color: #f9f9f9;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+span {
+    color: #000000;
+}
+
+input::placeholder {
+    color: #B8BAC1;
+    text-align: center;
+}
+
+button {
+    font-size: 1.15rem;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#todo-list {
+    background: #F9F9F9;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    padding: .25rem 0;
+}
+
+#create-task {
+    background: #F9F9F9;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    padding: .25rem 0;
+}
+
+input {
+    flex-grow: 1;
+    padding: 1rem 0;
+    border: none;
+    background: none;
+}
